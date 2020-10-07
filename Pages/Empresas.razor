@@ -1,0 +1,91 @@
+@page "/empresas"
+
+<h1>Empresas</h1>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" @onclick="NewEmpresa">
+  Agregar Empresa <FeatherUploadCloud Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Agregar Empresa</h5>
+      </div>
+     <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">RFC</label>
+            <input type="text" class="form-control" id="recipient-name" @bind="Empresa.rfc">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Razon social</label>
+            <input type="text" class="form-control" id="recipient-name" @bind="Empresa.razonSocial">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Nombre comercial</label>
+            <input type="text" class="form-control" id="recipient-name" @bind="Empresa.nombreComercial">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Direccion</label>
+            <input type="text" class="form-control" id="recipient-name" @bind="Empresa.direccion">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Telefono</label>
+            <input type="text" class="form-control" id="recipient-name" @bind="Empresa.telefono">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Correo</label>
+            <input type="text" class="form-control" id="recipient-name" @bind="Empresa.correo">
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" @onclick="GuardarEmpresa">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<table class="table table-striped mt-3">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">idSucursal</th>
+      <th scope="col">rfc</th>
+      <th scope="col">Razon social</th>
+      <th scope="col">Nombre comercial</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Telefono</th>
+      <th scope="col">Correo</th>
+      <th scope="col">Operaciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in ListEmpresas)
+    {
+      <tr>        
+          <th scope="row">@item.id</th>
+          <td>@item.idSucursal</td>
+          <td>@item.rfc</td>
+          <td>@item.razonSocial</td>
+          <td>@item.nombreComercial</td>
+          <td>@item.direccion</td>
+          <td>@item.telefono</td>
+          <td>@item.correo</td>        
+          <td>
+            <button class="btn btn-secondary btn-sm btn-block">
+                Editar
+                <FeatherEdit Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
+            </button>
+            <button class="btn btn-danger btn-sm btn-block" @onclick="(()=>EliminarEmpresa(item))">
+                Eliminar
+                <FeatherTrash2 Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
+            </button>
+          </td>        
+      </tr>
+    }
+  </tbody>
+</table>
