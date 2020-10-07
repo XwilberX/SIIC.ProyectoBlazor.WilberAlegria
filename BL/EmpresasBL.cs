@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient;
 using SIIC.ProyectoBlazor.WilberAlegria.ApiClient.Clases;

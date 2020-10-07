@@ -24,6 +24,8 @@ namespace SIIC.ProyectoBlazor.WilberAlegria
             builder.Services.AddSingleton<HttpClient>();
             builder.Services.AddTransient(s => new EmpresasApi("https://tiendablazor.azurewebsites.net"));
             builder.Services.AddTransient<EmpresasBL>();
+            builder.Services.AddTransient(s => new EmpleadosApi("https://tiendablazor.azurewebsites.net"));
+            builder.Services.AddTransient<EmpleadosBL>();
 
             builder.Services.AddBlazoredModal();
 

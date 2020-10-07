@@ -3,6 +3,45 @@
 
 <h3>Empleados</h3>
 
-<button class="btn btn-success">get empresas</button>
+<table class="table table-striped mt-3">
+  <thead>
+    <tr>
+      <th scope="col">id</th>
+      <th scope="col">rfc</th>
+      <th scope="col">Nombre</th>
+      <th scope="col">Apellidos</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Telefono</th>
+      <th scope="col">Correo</th>
+      <th scope="col">Activo</th>
+      <th scope="col">Operaciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach (var item in ListEmpleados)
+    {
+      <tr>        
+          <th scope="row">@item.id</th>        
+          <td>@item.rfc</td>        
+          <td>@item.nombre</td>        
+          <td>@item.apellidos</td>        
+          <td>@item.direccion</td>        
+          <td>@item.telefono</td>        
+          <td>@item.correo</td>       
+          <td>@item.activo</td>       
+          <td>
+            <button class="btn btn-secondary btn-sm btn-block">
+                Editar
+                <FeatherEdit Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
+            </button>
+            <button class="btn btn-danger btn-sm btn-block">
+                Eliminar
+                <FeatherTrash2 Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
+            </button>
+          </td>        
+      </tr>
+    }
+  </tbody>
+</table>
 
 

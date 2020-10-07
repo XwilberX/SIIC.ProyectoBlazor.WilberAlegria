@@ -77,39 +77,6 @@
         }
       },
       {
-        "HashCode": 2128050360,
-        "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados",
-        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Empleados"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados"
-        }
-      },
-      {
-        "HashCode": -1508673249,
-        "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados",
-        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 1378352766,
         "Kind": "Components.Component",
         "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index",
@@ -172,6 +139,75 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 578281764,
+        "Kind": "Components.Component",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados",
+        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Empleados"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ListEmpleados",
+            "TypeName": "System.Collections.Generic.List<SIIC.ProyectoBlazor.WilberAlegria.ApiClient.Clases.Empleados>",
+            "Metadata": {
+              "Common.PropertyName": "ListEmpleados"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Empleado",
+            "TypeName": "SIIC.ProyectoBlazor.WilberAlegria.ApiClient.Clases.Empleados",
+            "Metadata": {
+              "Common.PropertyName": "Empleado"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados"
+        }
+      },
+      {
+        "HashCode": -416689695,
+        "Kind": "Components.Component",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados",
+        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ListEmpleados",
+            "TypeName": "System.Collections.Generic.List<SIIC.ProyectoBlazor.WilberAlegria.ApiClient.Clases.Empleados>",
+            "Metadata": {
+              "Common.PropertyName": "ListEmpleados"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Empleado",
+            "TypeName": "SIIC.ProyectoBlazor.WilberAlegria.ApiClient.Clases.Empleados",
+            "Metadata": {
+              "Common.PropertyName": "Empleado"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
