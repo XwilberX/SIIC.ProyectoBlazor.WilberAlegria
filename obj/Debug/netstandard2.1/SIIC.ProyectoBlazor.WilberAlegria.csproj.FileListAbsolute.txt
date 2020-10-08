@@ -381,8 +381,8 @@ C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\bin\Debug\netstandard2.1\wwwroot\
 C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\mRd6TL4DYldo1ko9czkjEDcoiPdMPrJxz3dekwV6OOY=.hash
 C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\compressed\_framework\_bin\Newtonsoft.Json.dll.gz
 C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\compressed\_framework\_bin\Newtonsoft.Json.dll.br
-C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\x9sDs26lB6OgkiDmnnl5PLdFqvvsmjL0U_-nVNpk67k=.hash
-C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\JsPcM3fMnbvGsvNyBUX98pCit42uCUIIlAtGmHbFTZ0=.hash
-C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\w5dZzqjGGvrlClsVNtTGV52-gjorFVB4l9a0fM2pqqU=.hash
-C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\ARJZyaSx39IT2hrufMGywH-7FsZ8kZRlfKSXBUx40IQ=.hash
-C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\E3uvBEqVSUAl5i9vp4eTVltnvh1tZfsSmV3w-Z_BSjI=.hash
+C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\biwEyOTfd0BLWErCv44FOPbSfNpaSyHPFVaD8RdKegs=.hash
+C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\Ls7UfoOK71zLzr5sKRFKjyQokQ6ngncfclSfNT03FsI=.hash
+C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\a3_b7avkMr0z47ej5QDEACRXhtCc3uTs2vMCSf3is0c=.hash
+C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\yRXmPqNqUkSdjzm1R_i0iAkqpmB-GsjwLOI-7TYvGtQ=.hash
+C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\obj\Debug\netstandard2.1\integrity\nA9N1NNuYCFpdFlBx3kNQpPtvG-dPVau99Rz7UuuTbY=.hash

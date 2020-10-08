@@ -41,6 +41,7 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient
                 {
                     var s = resultado.Content.ReadAsStringAsync().Result;
                     var responde = JsonConvert.DeserializeObject<bool>(s);
+                    Console.WriteLine(responde);
                     return responde;
                 }
                 return false;
@@ -63,6 +64,29 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient
                     var s = resultado.Content.ReadAsStringAsync().Result;
                     var response = JsonConvert.DeserializeObject<bool>(s);
                     return response;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+                throw;
+            }
+        }
+
+        public async Task<bool> ActualizarEmpleadosAsync(Empleados empleados)
+        {
+            try
+            {
+
+                var resultado = await this.PostAsJsonAsync("ActualizarEmpleado", empleados);
+                if (resultado.IsSuccessStatusCode)
+                {
+                    var s = resultado.Content.ReadAsStringAsync().Result;
+                    var response = JsonConvert.DeserializeObject<bool>(s);
+                    return response;
+
                 }
                 return false;
             }

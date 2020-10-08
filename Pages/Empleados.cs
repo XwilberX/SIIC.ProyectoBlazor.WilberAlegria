@@ -42,5 +42,15 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.Pages
             bool resultado = await EmpleadosBL.BorrarEmpleadoAsync(empl.id);
             await ObtenerEmpleados();
         }
+
+        private void EditarEmpleado(ApiClient.Clases.Empleados emp)
+        {
+            Empleado = emp;
+        }
+        private async Task ActualizarEmpleado()
+        {
+            bool resultado = await EmpleadosBL.ActualizarEmpleadosAsync(Empleado);
+            await ObtenerEmpleados();
+        }
     }
 }

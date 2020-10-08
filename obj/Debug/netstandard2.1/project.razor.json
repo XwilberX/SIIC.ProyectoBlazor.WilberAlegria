@@ -110,39 +110,6 @@
         }
       },
       {
-        "HashCode": -599274468,
-        "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
-        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Modal"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal"
-        }
-      },
-      {
-        "HashCode": 565395490,
-        "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
-        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 578281764,
         "Kind": "Components.Component",
         "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados",
@@ -208,6 +175,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Empleados",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -599274468,
+        "Kind": "Components.Component",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
+        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Modal"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal"
+        }
+      },
+      {
+        "HashCode": 565395490,
+        "Kind": "Components.Component",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
+        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
