@@ -58,8 +58,8 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient
             {
                 var response = await this.PostAsJsonAsync("EliminarEmpleado", id);
                 if (response.StatusCode == HttpStatusCode.OK)
-                    return true;
-
+                    return true; 
+                    
                 return false;
             }
             catch (Exception ex)

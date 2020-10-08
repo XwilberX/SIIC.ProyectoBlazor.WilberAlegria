@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\-DreG8MWvAbJAY8un2houMp-bHuGcWnHLAfdjiJ4Qv4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Ux2LX98Vmn0qrw-bAvpgqPqv8r4E1qyn8Sw0fwEh6Pw=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\SIIC.ProyectoBlazor.WilberAlegria.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/SIIC.ProyectoBlazor.WilberAlegria.dll.gz"
     },
@@ -276,7 +276,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\JWGEpY3XhyZWFwCVxCeRI_ZOGNRcLwBwn_AHWTIPtKE=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KuN1cbhws-jCnuPRImf3IOeWodAWDPpHiVhCPAVil6g=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\SIIC.ProyectoBlazor.WilberAlegria.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/SIIC.ProyectoBlazor.WilberAlegria.pdb.gz"
     },
@@ -301,12 +301,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\wvqbw9seWCtvXDdeFtV_-mSPNJtxiZgDEaE9aIE_unE=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kn_hlwSqnln0QZEqr50bDNDEJiF1cwBuu4LiDPunGuA=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FGw_5pe6VO1VWZkaqmzd5WdzWMJxx1SGfxgE6Ph9-ME=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\F-0VVLljqyWfckP2LfgDr4bmXQmeUNYZOcc-Kn9mQMo=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.gz"
     }

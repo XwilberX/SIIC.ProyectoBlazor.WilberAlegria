@@ -6,6 +6,7 @@
   <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" @onclick="NewEmpresa">
     Agregar Empresa <FeatherUploadCloud Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
   </button>
+</Animate> 
 
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -48,47 +49,48 @@
       </div>
     </div>
   </div>
-
-  <table class="table table-striped mt-3">
-    <thead>
-      <tr>
-        <th scope="col">id</th>
-        <th scope="col">idSucursal</th>
-        <th scope="col">rfc</th>
-        <th scope="col">Razon social</th>
-        <th scope="col">Nombre comercial</th>
-        <th scope="col">Direccion</th>
-        <th scope="col">Telefono</th>
-        <th scope="col">Correo</th>
-        <th scope="col">Operaciones</th>
-      </tr>
-    </thead>
-    <tbody>
-      @foreach (var item in ListEmpresas)
-      {       
-        <tr>        
-            <th scope="row">@item.id</th>
-            <td>@item.idSucursal</td>
-            <td>@item.rfc</td>
-            <td>@item.razonSocial</td>
-            <td>@item.nombreComercial</td>
-            <td>@item.direccion</td>
-            <td>@item.telefono</td>
-            <td>@item.correo</td>        
-            <td>
-              <button class="btn btn-secondary btn-sm btn-block" data-target="#exampleModal2" data-toggle="modal" @onclick="(()=>EditarEmpresa(item))">
-                  Editar
-                  <FeatherEdit Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
-              </button>
-              <button class="btn btn-danger btn-sm btn-block" @onclick="() => EliminarEmpresa(item)">
-                  Eliminar
-                  <FeatherTrash2 Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
-              </button>
-            </td>        
+  <Animate Animation="Animations.FadeRight" Duration="TimeSpan.FromSeconds(0.5)" >
+      <table class="table table-striped mt-3">
+      <thead>
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">idSucursal</th>
+          <th scope="col">rfc</th>
+          <th scope="col">Razon social</th>
+          <th scope="col">Nombre comercial</th>
+          <th scope="col">Direccion</th>
+          <th scope="col">Telefono</th>
+          <th scope="col">Correo</th>
+          <th scope="col">Operaciones</th>
         </tr>
-      }
-    </tbody>
-  </table>
+      </thead>
+      <tbody>
+        @foreach (var item in ListEmpresas)
+        {       
+          <tr>        
+              <th scope="row">@item.id</th>
+              <td>@item.idSucursal</td>
+              <td>@item.rfc</td>
+              <td>@item.razonSocial</td>
+              <td>@item.nombreComercial</td>
+              <td>@item.direccion</td>
+              <td>@item.telefono</td>
+              <td>@item.correo</td>        
+              <td>
+                <button class="btn btn-secondary btn-sm btn-block" data-target="#exampleModal2" data-toggle="modal" @onclick="(()=>EditarEmpresa(item))">
+                    Editar
+                    <FeatherEdit Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
+                </button>
+                <button class="btn btn-danger btn-sm btn-block" @onclick="() => EliminarEmpresa(item)">
+                    Eliminar
+                    <FeatherTrash2 Size="20" Color="#ffffff" StrokeWidth="1.8f"/>
+                </button>
+              </td>        
+          </tr>
+        }
+      </tbody>
+    </table>
+  </Animate>  
 
   <!-- Modal -->
   <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -124,4 +126,3 @@
       </div>
     </div>
   </div>
-</Animate>
