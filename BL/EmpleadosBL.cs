@@ -20,6 +20,17 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.BL
             var empleados = await empleadosApi.GetEmpleadosAsync();
             return empleados;
         }
+
+        public async Task<bool> AgregarEmpleadoAsync(Empleados empleados)
+        {
+            var guardo = await empleadosApi.AgregarEmpleadoAsync(empleados);
+            return guardo;
+        }
         
+        public async Task<bool> BorrarEmpleadoAsync(Guid id)
+        {
+            var guardo = await empleadosApi.EliminarEmpleadoAsync(id);
+            return guardo;
+        }
     }
 }

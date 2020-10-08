@@ -85,7 +85,7 @@
       "url": "sample-data\/weather.json"
     },
     {
-      "hash": "sha256-4G2GRKfO39vxNmBCwICTKNs\/bkSIQEgcY0u3Tz3Uuyk=",
+      "hash": "sha256-JsPcM3fMnbvGsvNyBUX98pCit42uCUIIlAtGmHbFTZ0=",
       "url": "_framework\/_bin\/SIIC.ProyectoBlazor.WilberAlegria.dll"
     },
     {
@@ -217,6 +217,18 @@
       "url": "_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
+      "hash": "sha256-EXEQ\/tLE8JEBJXXWOjWBxOUjPWKjtK8+dNXmiqlB18g=",
+      "url": "_framework\/_bin\/Feather.Blazor.dll"
+    },
+    {
+      "hash": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
+      "url": "_framework\/_bin\/Microsoft.AspNetCore.Components.dll"
+    },
+    {
+      "hash": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
+      "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "hash": "sha256-bSgsT2x5xMvs8mara5wU+EJwcyHa9GVMU85HwhWcdWM=",
       "url": "_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll"
     },
@@ -231,18 +243,6 @@
     {
       "hash": "sha256-LIfCYwg+PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=",
       "url": "_framework\/_bin\/System.ComponentModel.DataAnnotations.dll"
-    },
-    {
-      "hash": "sha256-PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=",
-      "url": "_framework\/_bin\/Microsoft.AspNetCore.Components.dll"
-    },
-    {
-      "hash": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
-      "url": "_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
-      "hash": "sha256-EXEQ\/tLE8JEBJXXWOjWBxOUjPWKjtK8+dNXmiqlB18g=",
-      "url": "_framework\/_bin\/Feather.Blazor.dll"
     },
     {
       "hash": "sha256-v5hsrRFpgCTdRU0txjAJ2ZBWWsLEp0HGPd9rGOxEB7w=",
@@ -305,7 +305,7 @@
       "url": "_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-yyi8BUFYGnAF6NhVoFWdAhKLh\/\/ZXpeeWlybyZeVq60=",
+      "hash": "sha256-w5dZzqjGGvrlClsVNtTGV52\/gjorFVB4l9a0fM2pqqU=",
       "url": "_framework\/_bin\/SIIC.ProyectoBlazor.WilberAlegria.pdb"
     },
     {
@@ -325,9 +325,9 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-Vqda2+m+PnpHFW08IX019h9JZuI0o8f15\/jlLcNA\/CU=",
+      "hash": "sha256-ARJZyaSx39IT2hrufMGywH\/7FsZ8kZRlfKSXBUx40IQ=",
       "url": "_framework\/blazor.boot.json"
     }
   ],
-  "version": "v6UFFNY9"
+  "version": "lEhiDLnK"
 };

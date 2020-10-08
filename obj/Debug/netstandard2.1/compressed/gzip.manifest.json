@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4G2GRKfO39vxNmBCwICTKNs-bkSIQEgcY0u3Tz3Uuyk=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\JsPcM3fMnbvGsvNyBUX98pCit42uCUIIlAtGmHbFTZ0=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\SIIC.ProyectoBlazor.WilberAlegria.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/SIIC.ProyectoBlazor.WilberAlegria.dll.gz"
     },
@@ -166,6 +166,21 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EXEQ-tLE8JEBJXXWOjWBxOUjPWKjtK8_dNXmiqlB18g=.hash",
+      "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Feather.Blazor.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Feather.Blazor.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=.hash",
+      "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.gz"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
+      "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\bSgsT2x5xMvs8mara5wU_EJwcyHa9GVMU85HwhWcdWM=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.Web.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.gz"
@@ -184,21 +199,6 @@
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\LIfCYwg_PHltTK4z3EnbSkA7m2cn8JS4jHVthdKrDF8=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.ComponentModel.DataAnnotations.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.ComponentModel.DataAnnotations.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PEg9ghiKSWBTX0jq8pFDvv2Yvw92Y8W0ELtWrSE4fhA=.hash",
-      "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=.hash",
-      "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.gz"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\EXEQ-tLE8JEBJXXWOjWBxOUjPWKjtK8_dNXmiqlB18g=.hash",
-      "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Feather.Blazor.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Feather.Blazor.dll.gz"
     },
     {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\v5hsrRFpgCTdRU0txjAJ2ZBWWsLEp0HGPd9rGOxEB7w=.hash",
@@ -276,7 +276,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\yyi8BUFYGnAF6NhVoFWdAhKLh--ZXpeeWlybyZeVq60=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\w5dZzqjGGvrlClsVNtTGV52-gjorFVB4l9a0fM2pqqU=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\SIIC.ProyectoBlazor.WilberAlegria.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/SIIC.ProyectoBlazor.WilberAlegria.pdb.gz"
     },
@@ -301,12 +301,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Vqda2_m_PnpHFW08IX019h9JZuI0o8f15-jlLcNA-CU=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\ARJZyaSx39IT2hrufMGywH-7FsZ8kZRlfKSXBUx40IQ=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\xk3kOjUJbrxq1K1ngwc_oGG32yQkqungA_GTLRE_luo=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\E3uvBEqVSUAl5i9vp4eTVltnvh1tZfsSmV3w-Z_BSjI=.hash",
       "Source": "C:\\Practicas\\SIIC.ProyectoBlazor.WilberAlegria\\obj\\Debug\\netstandard2.1\\blazor\\service-worker-assets.js",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\service-worker-assets.js.gz"
     }

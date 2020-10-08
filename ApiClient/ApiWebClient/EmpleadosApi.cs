@@ -31,5 +31,47 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient
                 throw;
             }
         }
+
+        public async Task<bool> AgregarEmpleadoAsync(Empleados empleados)
+        {
+            try
+            {
+                var resultado = await this.PostAsJsonAsync("GuardarEmpleado", empleados);
+                if (resultado.IsSuccessStatusCode)
+                {
+                    var s = resultado.Content.ReadAsStringAsync().Result;
+                    var responde = JsonConvert.DeserializeObject<bool>(s);
+                    return responde;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+                throw;
+            }
+        }
+
+        public async Task<bool> EliminarEmpleadoAsync(Guid id)
+        {
+            try
+            {
+                var resultado = await this.PostAsJsonAsync("EliminarEmpleado", id);
+                if (resultado.IsSuccessStatusCode)
+                {
+                    var s = resultado.Content.ReadAsStringAsync().Result;
+                    var response = JsonConvert.DeserializeObject<bool>(s);
+                    return response;
+                }
+                return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+                throw;
+            }
+        }
     }
 }

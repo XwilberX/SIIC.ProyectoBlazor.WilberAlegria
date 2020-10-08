@@ -13,6 +13,6 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.Clases
         public string direccion { get; set; }
         public string telefono { get; set; }
         public string correo { get; set; }
-        public Object activo { get; set; } = false;
+        public Object activo { get; set; } = true;
     }
 }
