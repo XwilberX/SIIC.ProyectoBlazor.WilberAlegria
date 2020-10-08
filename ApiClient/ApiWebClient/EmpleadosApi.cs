@@ -1,3 +1,4 @@
+using System.Net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,14 +37,11 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient
         {
             try
             {
-                var resultado = await this.PostAsJsonAsync("GuardarEmpleado", empleados);
-                if (resultado.IsSuccessStatusCode)
-                {
-                    var s = resultado.Content.ReadAsStringAsync().Result;
-                    var responde = JsonConvert.DeserializeObject<bool>(s);
-                    Console.WriteLine(responde);
-                    return responde;
-                }
+                var response = await this.PostAsJsonAsync("GuardarEmpleado", empleados);
+
+                if (response.StatusCode == HttpStatusCode.OK)
+                    return true;
+        
                 return false;
             }
             catch (Exception ex)
@@ -58,13 +56,10 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient
         {
             try
             {
-                var resultado = await this.PostAsJsonAsync("EliminarEmpleado", id);
-                if (resultado.IsSuccessStatusCode)
-                {
-                    var s = resultado.Content.ReadAsStringAsync().Result;
-                    var response = JsonConvert.DeserializeObject<bool>(s);
-                    return response;
-                }
+                var response = await this.PostAsJsonAsync("EliminarEmpleado", id);
+                if (response.StatusCode == HttpStatusCode.OK)
+                    return true;
+
                 return false;
             }
             catch (Exception ex)
@@ -79,15 +74,10 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient
         {
             try
             {
-
-                var resultado = await this.PostAsJsonAsync("ActualizarEmpleado", empleados);
-                if (resultado.IsSuccessStatusCode)
-                {
-                    var s = resultado.Content.ReadAsStringAsync().Result;
-                    var response = JsonConvert.DeserializeObject<bool>(s);
-                    return response;
-
-                }
+                var response = await this.PostAsJsonAsync("ActualizarEmpleado", empleados);
+                if (response.StatusCode == HttpStatusCode.OK)
+                    return true;
+                    
                 return false;
             }
             catch (Exception ex)

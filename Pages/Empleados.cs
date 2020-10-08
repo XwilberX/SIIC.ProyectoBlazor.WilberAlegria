@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using SIIC.ProyectoBlazor.WilberAlegria.ApiClient.Clases;
 using SIIC.ProyectoBlazor.WilberAlegria.BL;
+using Microsoft.JSInterop;
 
 namespace SIIC.ProyectoBlazor.WilberAlegria.Pages
 {
@@ -39,8 +40,12 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.Pages
         }
         private async Task EliminarEmpleado(ApiClient.Clases.Empleados empl)
         {
-            bool resultado = await EmpleadosBL.BorrarEmpleadoAsync(empl.id);
-            await ObtenerEmpleados();
+            bool confirmed = await JSRuntime.InvokeAsync<bool>("confirm", $"Estas seguro de eliminar '{empl.nombre}'");
+            if (confirmed)
+            {
+                bool resultado = await EmpleadosBL.BorrarEmpleadoAsync(empl.id);
+                await ObtenerEmpleados();
+            }
         }
 
         private void EditarEmpleado(ApiClient.Clases.Empleados emp)

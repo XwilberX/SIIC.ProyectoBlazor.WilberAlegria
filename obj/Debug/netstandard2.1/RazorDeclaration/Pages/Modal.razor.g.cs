@@ -104,6 +104,13 @@ using Feather.Blazor.Icons;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\_Imports.razor"
+using BlazorAnimate;
+
+#line default
+#line hidden
+#nullable disable
     public partial class Modal : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998

@@ -1,3 +1,4 @@
+using System.Net;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,13 +38,10 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient
         {
             try
             {
-                var resultado = await this.PostAsJsonAsync("GuardarEmpresa", empresas);
-                if (resultado.IsSuccessStatusCode)
-                {
-                    var s = resultado.Content.ReadAsStringAsync().Result;
-                    var responde = JsonConvert.DeserializeObject<bool>(s);
-                    return responde;
-                }
+                var response = await this.PostAsJsonAsync("GuardarEmpresa", empresas);
+                if (response.StatusCode == HttpStatusCode.OK)
+                    return true;
+
                 return false;
             }
             catch (Exception ex)
@@ -58,13 +56,31 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.ApiClient.ApiWebClient
         {
             try
             {
-                var resultado = await this.PostAsJsonAsync("EliminarEmpresa", id);
-                if (resultado.IsSuccessStatusCode)
+                var response = await this.PostAsJsonAsync("EliminarEmpresa", id);
+                if (response.StatusCode == HttpStatusCode.OK)
+                    return true;
+
+                return false;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+                throw;
+            }
+        }
+
+        public async Task<bool> ActualizarEmpresasAsync(Empresas empresas)
+        {
+            try
+            {
+                var response = await this.PostAsJsonAsync("ActualizarEmpresa", empresas);
+                if (response.StatusCode == HttpStatusCode.OK)
                 {
-                    var s = resultado.Content.ReadAsStringAsync().Result;
-                    var response = JsonConvert.DeserializeObject<bool>(s);
-                    return response;
+                    Console.WriteLine("llego");
+                    return true;
                 }
+                    
                 return false;
             }
             catch (Exception ex)

@@ -42,6 +42,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "BlazorAnimate": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Blazored.Modal": {
               "target": "Package",
               "version": "[5.1.0, )"

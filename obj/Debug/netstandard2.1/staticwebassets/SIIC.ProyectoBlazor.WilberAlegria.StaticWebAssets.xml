@@ -1,5 +1,6 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="/" Path="C:\Practicas\SIIC.ProyectoBlazor.WilberAlegria\bin\Debug\netstandard2.1\wwwroot\" />
+  <ContentRoot BasePath="_content/BlazorAnimate" Path="C:\Users\infrabyte\.nuget\packages\blazoranimate\3.0.0\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Blazored.Modal" Path="C:\Users\infrabyte\.nuget\packages\blazored.modal\5.1.0\build\..\staticwebassets\" />
   <ContentRoot BasePath="_content/Blazorise" Path="C:\Users\infrabyte\.nuget\packages\blazorise\0.8.7\build\..\staticwebassets\" />
 </StaticWebAssets>

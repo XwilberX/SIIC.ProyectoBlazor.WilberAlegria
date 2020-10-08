@@ -20,6 +20,7 @@
     <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.build\3.2.1\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Build.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.build\3.2.1\build\netstandard1.0\Microsoft.AspNetCore.Components.WebAssembly.Build.props')" />
     <Import Project="$(NuGetPackageRoot)blazorise\0.8.7\buildTransitive\Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise\0.8.7\buildTransitive\Blazorise.props')" />
     <Import Project="$(NuGetPackageRoot)blazored.modal\5.1.0\buildTransitive\Blazored.Modal.props" Condition="Exists('$(NuGetPackageRoot)blazored.modal\5.1.0\buildTransitive\Blazored.Modal.props')" />
+    <Import Project="$(NuGetPackageRoot)blazoranimate\3.0.0\buildTransitive\BlazorAnimate.props" Condition="Exists('$(NuGetPackageRoot)blazoranimate\3.0.0\buildTransitive\BlazorAnimate.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_AspNetCore_Components_WebAssembly_Runtime Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_Runtime)' == '' ">C:\Users\infrabyte\.nuget\packages\microsoft.aspnetcore.components.webassembly.runtime\3.2.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_Runtime>

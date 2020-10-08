@@ -77,35 +77,35 @@
         }
       },
       {
-        "HashCode": 1378352766,
+        "HashCode": -599274468,
         "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
         "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Index"
+            "TagName": "Modal"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index"
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal"
         }
       },
       {
-        "HashCode": 896588935,
+        "HashCode": 565395490,
         "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
         "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index"
+            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index",
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -179,35 +179,35 @@
         }
       },
       {
-        "HashCode": -599274468,
+        "HashCode": 1378352766,
         "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index",
         "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "Modal"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal"
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index"
         }
       },
       {
-        "HashCode": 565395490,
+        "HashCode": 896588935,
         "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index",
         "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal"
+            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Modal",
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -241,6 +241,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.App",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1290447796,
+        "Kind": "Components.Component",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu",
+        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -1428507441,
+        "Kind": "Components.Component",
+        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu",
+        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -337,39 +370,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": 1290447796,
-        "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu",
-        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -1428507441,
-        "Kind": "Components.Component",
-        "Name": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu",
-        "AssemblyName": "SIIC.ProyectoBlazor.WilberAlegria",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "SIIC.ProyectoBlazor.WilberAlegria.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -55572,6 +55572,338 @@
         "Metadata": {
           "Runtime.Name": "Components.None",
           "Common.TypeName": "Microsoft.AspNetCore.Components.Routing.NavLink.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 1683582301,
+        "Kind": "Components.Component",
+        "Name": "BlazorAnimate.Animate",
+        "AssemblyName": "BlazorAnimate",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Animate"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Animation",
+            "TypeName": "BlazorAnimate.IAnimation",
+            "Metadata": {
+              "Common.PropertyName": "Animation"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Easing",
+            "TypeName": "BlazorAnimate.IEasing",
+            "Metadata": {
+              "Common.PropertyName": "Easing"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Duration",
+            "TypeName": "System.TimeSpan?",
+            "Metadata": {
+              "Common.PropertyName": "Duration"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Delay",
+            "TypeName": "System.TimeSpan?",
+            "Metadata": {
+              "Common.PropertyName": "Delay"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DurationMs",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "DurationMs"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DelayMs",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "DelayMs"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Mirror",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "Mirror"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Once",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "Once"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Offset",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Offset"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Anchor",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Anchor"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnchorPlacement",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "AnchorPlacement"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OptionsName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OptionsName"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Options",
+            "TypeName": "BlazorAnimate.AnimateOptions",
+            "Metadata": {
+              "Common.PropertyName": "Options"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsManual",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsManual"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "InputAttributes",
+            "TypeName": "System.Collections.Generic.Dictionary<System.String, System.Object>",
+            "Metadata": {
+              "Common.PropertyName": "InputAttributes"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAnimate.Animate"
+        }
+      },
+      {
+        "HashCode": 871020353,
+        "Kind": "Components.Component",
+        "Name": "BlazorAnimate.Animate",
+        "AssemblyName": "BlazorAnimate",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorAnimate.Animate"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "ChildContent",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment",
+            "Metadata": {
+              "Common.PropertyName": "ChildContent",
+              "Components.ChildContent": "True"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Animation",
+            "TypeName": "BlazorAnimate.IAnimation",
+            "Metadata": {
+              "Common.PropertyName": "Animation"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Easing",
+            "TypeName": "BlazorAnimate.IEasing",
+            "Metadata": {
+              "Common.PropertyName": "Easing"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Duration",
+            "TypeName": "System.TimeSpan?",
+            "Metadata": {
+              "Common.PropertyName": "Duration"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Delay",
+            "TypeName": "System.TimeSpan?",
+            "Metadata": {
+              "Common.PropertyName": "Delay"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DurationMs",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "DurationMs"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DelayMs",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "DelayMs"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Mirror",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "Mirror"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Once",
+            "TypeName": "System.Boolean?",
+            "Metadata": {
+              "Common.PropertyName": "Once"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Offset",
+            "TypeName": "System.Int32",
+            "Metadata": {
+              "Common.PropertyName": "Offset"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Anchor",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Anchor"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "AnchorPlacement",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "AnchorPlacement"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OptionsName",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "OptionsName"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Options",
+            "TypeName": "BlazorAnimate.AnimateOptions",
+            "Metadata": {
+              "Common.PropertyName": "Options"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "IsManual",
+            "TypeName": "System.Boolean",
+            "Metadata": {
+              "Common.PropertyName": "IsManual"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "InputAttributes",
+            "TypeName": "System.Collections.Generic.Dictionary<System.String, System.Object>",
+            "Metadata": {
+              "Common.PropertyName": "InputAttributes"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorAnimate.Animate",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 226774504,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorAnimate.Animate.ChildContent",
+        "AssemblyName": "BlazorAnimate",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "Animate"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "BlazorAnimate.Animate.ChildContent",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "HashCode": 1823348049,
+        "Kind": "Components.ChildContent",
+        "Name": "BlazorAnimate.Animate.ChildContent",
+        "AssemblyName": "BlazorAnimate",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "ChildContent",
+            "ParentTag": "BlazorAnimate.Animate"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "BlazorAnimate.Animate.ChildContent",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }

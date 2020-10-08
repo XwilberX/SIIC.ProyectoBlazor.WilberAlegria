@@ -31,5 +31,11 @@ namespace SIIC.ProyectoBlazor.WilberAlegria.BL
             var guardo = await empresasApi.EliminarEmpresaAsync(id);
             return guardo;
         }
+
+        public async Task<bool> ActualizarEmpresasAsync(Empresas empresas)
+        {
+            var guardo = await empresasApi.ActualizarEmpresasAsync(empresas);
+            return guardo;
+        }
     }
 }
